@@ -1,0 +1,30 @@
+name: tape
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+  - defaults
+dependencies:
+  - matplotlib=3.3.2
+  - matplotlib-base=3.3.2
+  - numpy=1.19.2
+  - numpy-base=1.19.2
+  - pandas=1.1.5
+  - pip=20.3.3
+  - python=3.7.4
+  - python-dateutil=2.8.1
+  - scikit-learn=0.23.2
+  - scipy=1.5.2
+  - seaborn=0.11.1
+  - pip:
+    - biopython==1.78
+    - boto3==1.16.45
+    - botocore==1.19.45
+    - jmespath==0.10.0
+    - lmdb==1.0.0
+    - protobuf==3.14.0
+    - s3transfer==0.3.3
+    - tape-proteins==0.4
+    - tensorboardx==2.1
+    - torch==1.4.0
+    - torchvision==0.5.0
+    - tqdm==4.55.0
